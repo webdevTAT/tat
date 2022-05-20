@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="red"><!--this is to chnage the title bar color of mobile devices-->
+    <title>Tanvir</title>
+    <link rel="icon" href="amirjan.png"><!--this is the title bar logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap" rel="stylesheet"><!--English font-->
+<link href="https://fonts.maateen.me/adorsho-lipi/font.css" rel="stylesheet"><!--bangla font-->
+
+    <!-- (😋)-->
+    <link rel="stylesheet" href="Universal.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="navigationResponsive.css">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="detailsResponsive.css">
+    <link rel="stylesheet" href="addImage.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="heroResponsive.css">
+    <!-- StyleSheets -->
+
+
+</head>
+<body>
+
+        <!--(🙄)the navigation-->
+    <nav>
+        <div class="logo">
+                <span>তা</span>নভীর
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="#">ডিজাইন</a>
+                </li>
+                <li>
+                    <a href="#">দক্ষতা</a>
+                </li>
+                <li>
+                    <a href="#">কোর্স</a>
+                </li>
+                <li>
+                    <a href="#">উদাহরণ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!--😎-->
+    <section class="loginSection">
+        <div class="details">
+            <div class="circle">
+                <img src="tanviricon.png" alt="">
+            </div>
+            <h1>আসসালামুআলাইকুম!</h1>
+            <p>আমি তানভীর</p>
+            <div class="tanvir">
+                <p>আমি ছোট খাটো ওয়েব ডিজাইনার।আপনি চাইলে আপনার জন্য ওয়েব ডিজাইন করে দিতে পারি। আমি প্রতি ওয়েব সাইটের জন্য ১০০ টাকা নিয়ে থাকি!</p>
+            </div>
+                <a href="tel:01306812870">যোগাযোগ করুন</a>
+        </div>
+    </section>
+    <!-- navigation is done for now  -->
+
+    <!-- now lets design a form for php and database -->
+    <section class="database">
+    <form action="data.php" method="post">
+        <input type="text" id="bisoy" name="bisoy">
+        <input type="number" id="taka" name="taka">
+        <input type="submit">
+    </form> 
+    </section>
+    <?php include(data.php)?>
+<script src="tanvirButton.js"></script>
+<script src="menuButton.js"></script>
+</body>
+</html>
